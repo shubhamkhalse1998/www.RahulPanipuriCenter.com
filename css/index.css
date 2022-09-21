@@ -1,0 +1,160 @@
+.main{
+    height: 650px;
+    width: 100%;
+    background-color: orangered;
+    margin: 0px;
+}
+.header{
+    height: 50px;
+    width: 100%;
+}
+ul li{
+    float: left;
+    margin: 12px;
+    list-style: none;
+    position: relative;
+    left: 480px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    font-size: 25px;
+    font-style: border;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 50px;
+}
+p{
+    /* color: azure; */
+    /* font-size: 25px; */
+    /* padding: auto; */
+    /* text-align: center; */
+    /* line-height: 47px; */
+    /* padding-left: 300px; */
+    /* font-style: bold; */
+}
+.container{
+    height: 650px;
+    width: 100%;
+}
+.menu{
+    height: 80px;
+    width: 100%;
+    background-color:orangered;
+    float: left;
+}
+ol li{
+    float: left;
+    list-style: none;
+    background-color: orangered;
+    margin-left: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 2px;
+    border-color:rgb(145, 13, 13);
+    border-style: dashed;
+    position: relative;
+    left: 710px;
+}
+ol li:hover{
+    background-color: azure;
+    transition: 1s;
+
+}
+.s{
+    color:azure;
+    text-decoration: none;
+    font-style: bold;
+
+}
+.s:hover{
+    color: orangered;
+}
+.text{
+ height: 570px;   
+ width: 60%;
+ background-color:orangered;
+ float: left;
+}
+h3{
+    color: rgb(35, 30, 30);
+    font-size: 30px;
+    padding-left: 60px;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.1em;
+    padding-top: 30px;
+}
+@font-face {
+    font-family: SHUBHAM;
+    src: url(/fonts/K2FyfZJVlfNNSEBXGb7TCI6oBjLz.ttf);
+}
+h1{
+    font-family: SHUBHAM;
+    color: azure;
+    font-size: 55px;
+    padding-left: 58px;
+    padding-top: 30px;
+    letter-spacing: 0.050em;
+}
+h2{
+    font-family: SHUBHAM;
+    color: azure;
+    font-size: 55px;
+    padding-left: 58px;
+    padding-top: 20px;
+    letter-spacing: 0.050em;
+}
+h4{
+    font-family: SHUBHAM;
+    color: azure;
+    font-size: 55px;
+    padding-left: 58px;
+    padding-top: 20px;
+    letter-spacing: 0.050em;
+}
+button{
+    margin-left: 60px;
+    margin-top: 30px;
+    border: 1px solid azure;
+    border-radius: 10px;
+    background-color: azure;
+}
+.order{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image{
+    height: 570px;
+    width: 40%;
+    background-color: orangered;
+    float: left;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color:black;
+    float: left;
+}
+.footername{
+    color: orangered;
+    /* text-align: center; */
+    margin-left: 220px;
+}
+span{
+    color: azure;
+    line-height: 60px;
+}
+.dish{
+    font-size: 20px;
+    color: azure;
+    padding-top: 1px;
+    margin-left: 480px;
+}

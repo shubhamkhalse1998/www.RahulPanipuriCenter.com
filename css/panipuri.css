@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 660px;
+    width: 100%;
+    background-color:black;
+}
+.main{
+    height: 660px;
+    width: 80%;
+    margin-left: 130px;
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 350px;
+    box-shadow: 3px 3px 200px 8px violet;
+}
+.box{
+    height: 520px;
+    width: 55%;
+    background-color: orangered;
+    position: absolute;
+    left: 310px;
+    top: 75px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+.header{
+    height: 60px;
+    width: 95%;
+    text-align: center;
+    margin-left: 20px;
+    /* background-color: aqua; */
+}
+@font-face {
+    font-family: SHUBHAM;
+    src: url(/fonts/K2FyfZJVlfNNSEBXGb7TCI6oBjLz.ttf);
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    padding-top: 30px;
+    letter-spacing: 0.2em;
+}
+span{
+    color: black;
+}
+.container{
+    height: 420px;
+    width: 95%;
+    /* background-color: aqua; */
+    margin-left: 18px;
+}
+table{
+    margin-left: 91px;
+    position: absolute;
+    top: 100px;
+}
+.sevpuri{
+    height: 100px;
+    width: 20%;
+}
+#select{
+    height: 50px;
+    width: 90%;
+    margin-left: 10px;
+}
+#payment{
+    height: 50px;
+    width: 90%;
+    margin-left: 10px;
+}
+.address{
+    width: 95.5%;
+    height: 50px;
+    margin-left: 10px;
+}
+.number{
+    width: 90%;
+    height: 50px;
+    margin-left: 10px;
+}
+.otp{
+    width: 90%;
+    height: 50px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    background-color: azure;
+    color: orangered;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    border: 1px solid azure;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: black;
+    transition: 1s;
+    color: azure;
+}
+.footer{
+    height: 40px;
+    width: 95%;
+    /* background-color: beige; */
+    margin-left: 18px;
+    text-align: center;
+    font-size: 20px;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
